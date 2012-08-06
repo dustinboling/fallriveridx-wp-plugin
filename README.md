@@ -1,2 +1,2 @@
 # Fall River IDX Wordpress Plugin
-A wordpres plugin for the Fall River IDX.
+A wordpress plugin for the Fall River IDX.
