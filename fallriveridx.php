@@ -13,7 +13,7 @@ License:
 /* TODO: add default image for properties, probably just add it to the plugin dir */
 /* TODO: set title on single property page, wp_title filter */
 /* TODO: do not show empty fields in summary data */
-/* TODO: delay on request of ~200 ms for map_idle callbacks */
+/* TODO: add delay on request of ~200 ms for map_idle callbacks */
 // TODO: search page: style fridx-search-params (maybe something like bootstrap's flash messages)
 // TODO: a search that returns 0 results should not log a fail.
 
