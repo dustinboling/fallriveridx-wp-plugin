@@ -1,0 +1,208 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BathsTotal	widgets/idx_top_listings_widget.php	/^            $BathsTotal = "1";$/;"	v
+BathsTotal	widgets/idx_top_listings_widget.php	/^            $BathsTotal = $instance[ 'BathsTotal' ];$/;"	v
+BedroomsTotal	widgets/idx_top_listings_widget.php	/^            $BedroomsTotal = "1";$/;"	v
+BedroomsTotal	widgets/idx_top_listings_widget.php	/^            $BedroomsTotal = $instance[ 'BedroomsTotal' ];$/;"	v
+BuildingSize	widgets/idx_top_listings_widget.php	/^            $BuildingSize = ""; $/;"	v
+BuildingSize	widgets/idx_top_listings_widget.php	/^            $BuildingSize = $instance[ 'BuildingSize' ];$/;"	v
+City	widgets/idx_top_listings_widget.php	/^            $City = "";$/;"	v
+City	widgets/idx_top_listings_widget.php	/^            $City = $instance[ 'City' ];$/;"	v
+FALL_RIVER_TOKEN	fallriveridx.php	/^define("FALL_RIVER_TOKEN", get_option( 'fridx_token' ) );$/;"	d
+FridxAreasWidget	widgets/idx_cities_widget.php	/^    class FridxAreasWidget extends WP_Widget {$/;"	c
+FridxSearchWidget	widgets/idx_search_widget.php	/^class FridxSearchWidget extends WP_Widget {$/;"	c
+FridxTopListingsWidget	widgets/idx_top_listings_widget.php	/^class FridxTopListingsWidget extends WP_Widget {$/;"	c
+Limit	widgets/idx_top_listings_widget.php	/^            $Limit = $instance[ 'Limit' ];$/;"	v
+Limit	widgets/idx_top_listings_widget.php	/^            $Limit = 10;$/;"	v
+ListPriceHigh	widgets/idx_top_listings_widget.php	/^            $ListPriceHigh = "";$/;"	v
+ListPriceHigh	widgets/idx_top_listings_widget.php	/^            $ListPriceHigh = $instance[ 'ListPriceHigh' ];$/;"	v
+ListPriceLow	widgets/idx_top_listings_widget.php	/^            $ListPriceLow = "";$/;"	v
+ListPriceLow	widgets/idx_top_listings_widget.php	/^            $ListPriceLow = $instance[ 'ListPriceLow' ];$/;"	v
+SortBy	widgets/idx_top_listings_widget.php	/^            $SortBy = $instance[ 'SortBy' ];$/;"	v
+SortBy	widgets/idx_top_listings_widget.php	/^            $SortBy = 'ListPrice|DESC';$/;"	v
+ZipCode	widgets/idx_top_listings_widget.php	/^            $ZipCode = "";$/;"	v
+ZipCode	widgets/idx_top_listings_widget.php	/^            $ZipCode = $instance[ 'ZipCode' ];$/;"	v
+__construct	widgets/idx_cities_widget.php	/^        function __construct() {$/;"	f
+__construct	widgets/idx_search_widget.php	/^    function __construct() {$/;"	f
+__construct	widgets/idx_top_listings_widget.php	/^    function __construct() {$/;"	f
+acceptable_atts	property_index_shortcode.php	/^    $acceptable_atts = array("ListPrice", "City", "ZipCode", "BedroomsTotal", "BathsTotal", "BuildingSize", "ListAgentAgentID", "SaleAgentAgentID");$/;"	v
+acceptable_atts	property_index_shortcode.php	/^    $acceptable_atts = array("ListPrice", $/;"	v
+acceptable_params	themefiles/archive-fridx_search.php	/^$acceptable_params = array( 'city', 'min_price', 'max_price', 'beds', 'baths', 'building_size', 'community', 'mls_number', 'tract', 'zip_code' );$/;"	v
+activate_fridx_activation_menu	admin_menus.php	/^function activate_fridx_activation_menu() {$/;"	f
+activate_fridx_maps_menu	admin_menus.php	/^function activate_fridx_maps_menu() {$/;"	f
+activate_fridx_menu	admin_menus.php	/^function activate_fridx_menu() {$/;"	f
+add_body_onload	scripts.php	/^function add_body_onload($c) { $/;"	f
+add_fr_idx_admin_javascripts	scripts.php	/^function add_fr_idx_admin_javascripts() {$/;"	f
+add_fr_idx_admin_stylesheets	scripts.php	/^function add_fr_idx_admin_stylesheets() {$/;"	f
+add_fr_idx_javascripts	scripts.php	/^function add_fr_idx_javascripts() {$/;"	f
+add_fr_idx_stylesheets	scripts.php	/^function add_fr_idx_stylesheets() {$/;"	f
+add_fridx_listing_rewrite	custom_post_types.php	/^function add_fridx_listing_rewrite() {$/;"	f
+add_fridx_token_ajax	scripts.php	/^function add_fridx_token_ajax() {$/;"	f
+address	themefiles/archive-fr_idx.php	/^    $address = fridx_capitalize_query( $wp_query->query_vars[ 'fridx_listing' ] );$/;"	v
+ary_upcase	fallriveridx.php	/^    $ary_upcase = array();$/;"	v
+attrs	property_index_shortcode.php	/^        $attrs = $clean_atts;$/;"	v
+attrs	property_index_shortcode.php	/^    $attrs = capitalize_atts( $atts );$/;"	v
+bath_options	widgets/idx_top_listings_widget.php	/^        $bath_options = $bed_options;$/;"	v
+bed_options	widgets/idx_top_listings_widget.php	/^        $bed_options = array( 1 => 1, 2 => 2, 3 => 3, 4 => 4, 5 => 5, 6 => 6, 7 => 7, 8 => 8, 9 => 9 );$/;"	v
+capitalize_atts	property_index_shortcode.php	/^function capitalize_atts( $atts ) {$/;"	f
+check_search_attr_keys	property_index_shortcode.php	/^function check_search_attr_keys( $atts ) {$/;"	f
+cities_field	widgets/idx_search_widget.php	/^            $cities_field = $instance[ 'cities_field' ];$/;"	v
+clean_atts	property_index_shortcode.php	/^    $clean_atts = array();$/;"	v
+communities_field	widgets/idx_search_widget.php	/^            $communities_field = $instance[ 'communities_field' ];$/;"	v
+context	fallriveridx.php	/^    $context = stream_context_create( $opts );$/;"	v
+create_fridx_areas	custom_post_types.php	/^function create_fridx_areas() {$/;"	f
+create_fridx_listing	custom_post_types.php	/^function create_fridx_listing() {$/;"	f
+create_fridx_maps	custom_post_types.php	/^function create_fridx_maps() {$/;"	f
+create_fridx_search	custom_post_types.php	/^function create_fridx_search() {$/;"	f
+data	fridx_activation_menu.php	/^$data = array($/;"	v
+disclaimer	fallriveridx.php	/^    $disclaimer = '<p>';$/;"	v
+do_theme_redirect	redirects.php	/^function do_theme_redirect($url) {$/;"	f
+form	widgets/idx_cities_widget.php	/^        public function form( $instance ) {$/;"	f
+form	widgets/idx_search_widget.php	/^    public function form( $instance ) {$/;"	f
+form	widgets/idx_top_listings_widget.php	/^    public function form( $instance ) {$/;"	f
+fr_error_msg	single_property_shortcode.php	/^      $fr_error_msg =  $json_output[ 'response' ][ 'message' ];$/;"	v
+fr_error_msg	single_property_shortcode.php	/^      $fr_error_msg = "Listing not found, check ListingID.";$/;"	v
+fr_error_msg	themefiles/archive-fr_idx.php	/^        $fr_error_msg = "Listing not found.";$/;"	v
+fr_error_msg	themefiles/archive-fr_idx.php	/^        $fr_error_msg = $json_output[ 'response' ][ 'message' ];$/;"	v
+fr_error_msg	themefiles/archive-fridx_search.php	/^    $fr_error_msg = "No properties found.";$/;"	v
+fr_error_msg	themefiles/archive-fridx_search.php	/^    $fr_error_msg = $json_output[ 'response' ][ 'message' ];$/;"	v
+fr_idx_redirect	redirects.php	/^function fr_idx_redirect() {$/;"	f
+fridx_account_status	fridx_activation_menu.php	/^function fridx_account_status( $resp ) {$/;"	f
+fridx_account_status_errors	fridx_activation_menu.php	/^function fridx_account_status_errors( $resp ) {$/;"	f
+fridx_activation_menu	admin_menus.php	/^function fridx_activation_menu() {$/;"	f
+fridx_capitalize_query	fallriveridx.php	/^function fridx_capitalize_query( $str ) {$/;"	f
+fridx_disclaimer	fallriveridx.php	/^function fridx_disclaimer() {$/;"	f
+fridx_from_slug	fallriveridx.php	/^function fridx_from_slug( $str ) {$/;"	f
+fridx_get_json_object	fallriveridx.php	/^function fridx_get_json_object( $jsonurl ) {$/;"	f
+fridx_maps_menu	admin_menus.php	/^function fridx_maps_menu() {$/;"	f
+fridx_maps_redirect	redirects.php	/^function fridx_maps_redirect() {$/;"	f
+fridx_menu	admin_menus.php	/^function fridx_menu() {$/;"	f
+fridx_parse_listing_id	fallriveridx.php	/^function fridx_parse_listing_id( $str ) {$/;"	f
+fridx_photo_gallery	fallriveridx.php	/^function fridx_photo_gallery( $img_ary ) {$/;"	f
+fridx_render_single_listing_title	fallriveridx.php	/^function fridx_render_single_listing_title() {$/;"	f
+fridx_search_redirect	redirects.php	/^function fridx_search_redirect() {$/;"	f
+fridx_select_widget	fallriveridx.php	/^function fridx_select_widget( $name, $options_ary, $fname, $fid, $instance ) {$/;"	f
+fridx_sentenceize	fallriveridx.php	/^function fridx_sentenceize( $str ) {$/;"	f
+fridx_titleize	fallriveridx.php	/^function fridx_titleize( $title ) {$/;"	f
+fridx_titleize_from_slug	fallriveridx.php	/^function fridx_titleize_from_slug( $str ) {$/;"	f
+fridx_to_slug	fallriveridx.php	/^function fridx_to_slug( $str ) {$/;"	f
+gallery	fallriveridx.php	/^        $gallery = '<div class="slider-wrapper theme-default controlnav-thumbs fridx-row">';$/;"	v
+gallery	fallriveridx.php	/^        $gallery = '<div id="fridx-photo-gallery">';$/;"	v
+geocode	fridx_maps_menu.php	/^                $geocode = $json_output[ 'response' ][ 'message' ];$/;"	v
+geocode_response	fridx_maps_menu.php	/^                $geocode_response = "Successfully updated map center.";$/;"	v
+i	fallriveridx.php	/^                    $i  = $i + 1;$/;"	v
+i	fallriveridx.php	/^        $i = 0;$/;"	v
+i	property_index_shortcode.php	/^                    $i = $i + 1;$/;"	v
+i	property_index_shortcode.php	/^        $i = 1;$/;"	v
+i	themefiles/archive-fridx_search.php	/^            $i = $i + 1;$/;"	v
+i	themefiles/archive-fridx_search.php	/^    $i = 1;$/;"	v
+images	property_index_shortcode.php	/^                    $images = $listing[ 'PropertyMedia' ];$/;"	v
+images	single_property_shortcode.php	/^    $images = $listing['PropertyMedia'];$/;"	v
+images	themefiles/archive-fr_idx.php	/^    $images = $listing['PropertyMedia'];$/;"	v
+images	themefiles/archive-fridx_search.php	/^            $images = $listing[ 'PropertyMedia' ];$/;"	v
+initialize	js/examples/index.html	/^function initialize() {$/;"	f
+instance	widgets/idx_top_listings_widget.php	/^        $instance = array();$/;"	v
+json	fallriveridx.php	/^    $json = file_get_contents($jsonurl, false, $context);$/;"	v
+json	fridx_activation_menu.php	/^    $json = file_get_contents( $jsonurl );$/;"	v
+json	fridx_maps_menu.php	/^        $json = file_get_contents( $jsonurl );$/;"	v
+json_output	fallriveridx.php	/^        $json_output = json_decode($json, true);$/;"	v
+json_output	fridx_activation_menu.php	/^    $json_output = json_decode( $json, true );$/;"	v
+json_output	fridx_maps_menu.php	/^        $json_output = json_decode( $json, true );$/;"	v
+json_output	property_index_shortcode.php	/^    $json_output = fridx_get_json_object( $query );$/;"	v
+json_output	single_property_shortcode.php	/^    $json_output = fridx_get_json_object( $jsonurl );$/;"	v
+json_output	themefiles/archive-fr_idx.php	/^    $json_output = fridx_get_json_object( $jsonurl );$/;"	v
+json_output	themefiles/archive-fridx_search.php	/^$json_output = fridx_get_json_object( $jsonurl );$/;"	v
+json_output	widgets/idx_cities_widget.php	/^            $json_output = fridx_get_json_object( $jsonurl );$/;"	v
+json_output	widgets/idx_top_listings_widget.php	/^        $json_output = fridx_get_json_object( $jsonurl );$/;"	v
+jsonurl	fridx_activation_menu.php	/^    $jsonurl = "http:\/\/fallriveridx.heroku.com\/api\/accounts\/show.json?Token=";$/;"	v
+jsonurl	fridx_activation_menu.php	/^    $jsonurl = "http:\/\/fallriveridx.heroku.com\/api\/accounts\/update.json?Token=";$/;"	v
+jsonurl	fridx_maps_menu.php	/^        $jsonurl = "http:\/\/fallriveridx.heroku.com\/api\/geocode\/geocode.json?Address=";$/;"	v
+jsonurl	single_property_shortcode.php	/^    $jsonurl = "http:\/\/fallriveridx.heroku.com\/api\/properties\/show.json?Token=";$/;"	v
+jsonurl	themefiles/archive-fr_idx.php	/^    $jsonurl = "http:\/\/fallriveridx.heroku.com\/api\/properties\/show.json?Token=";$/;"	v
+jsonurl	themefiles/archive-fridx_search.php	/^$jsonurl = "http:\/\/fallriveridx.heroku.com\/api\/properties\/search.json?Token=";$/;"	v
+jsonurl	widgets/idx_cities_widget.php	/^            $jsonurl = "http:\/\/fallriveridx.heroku.com";$/;"	v
+jsonurl	widgets/idx_top_listings_widget.php	/^        $jsonurl = "http:\/\/fallriveridx.heroku.com\/api\/properties\/search.json?Token=" . FALL_RIVER_TOKEN;$/;"	v
+listing	single_property_shortcode.php	/^      $listing = $json_output[0][ 'listing' ];$/;"	v
+listing	themefiles/archive-fr_idx.php	/^        $listing = $json_output[0][ 'listing' ];$/;"	v
+listing_counter	fallriveridx.php	/^$listing_counter = 1;$/;"	v
+listing_id	fallriveridx.php	/^    $listing_id = $str_ary[0];$/;"	v
+listing_item	widgets/idx_top_listings_widget.php	/^                    $listing_item = '';$/;"	v
+localize_map_options	themefiles/archive-fridx_maps.php	/^function localize_map_options() {$/;"	f
+mls_numbers_field	widgets/idx_search_widget.php	/^            $mls_numbers_field = $instance[ 'mls_numbers_field' ];$/;"	v
+neighborhoods	widgets/idx_cities_widget.php	/^                $neighborhoods = $instance[ 'neighborhoods' ];$/;"	v
+neighborhoods	widgets/idx_cities_widget.php	/^                $neighborhoods = array();$/;"	v
+nivo_css	themefiles/archive-fr_idx.php	/^    $nivo_css = plugins_url('fallriveridx\/js\/nivo-slider\/nivo-slider.css');$/;"	v
+nivo_jq_js	themefiles/archive-fr_idx.php	/^    $nivo_jq_js = plugins_url('fallriveridx\/js\/nivo-slider\/jquery.nivo.slider.pack.js');$/;"	v
+nivo_js	themefiles/archive-fr_idx.php	/^    $nivo_js = plugins_url('fallriveridx\/js\/fridx-listing.js');$/;"	v
+nivo_theme	themefiles/archive-fr_idx.php	/^    $nivo_theme = plugins_url('fallriveridx\/js\/nivo-slider\/themes\/default\/default.css');$/;"	v
+opts	fallriveridx.php	/^    $opts = array( $/;"	v
+output	property_index_shortcode.php	/^        $output = '<div id="listings-container" class="fridx-container">';$/;"	v
+parameter_queryvars	initializers.php	/^function parameter_queryvars( $qvars ) {$/;"	f
+params	themefiles/archive-fridx_search.php	/^$params = $wp_query->query_vars;$/;"	v
+plugindir	redirects.php	/^    $plugindir = dirname( __FILE__ );$/;"	v
+property_search_shortcode	property_index_shortcode.php	/^function property_search_shortcode( $atts ) {$/;"	f
+query	property_index_shortcode.php	/^    $query = "http:\/\/fallriveridx.heroku.com\/api\/properties\/search.json?Token=";$/;"	v
+query	property_index_shortcode.php	/^    $query = str_replace(" ", "%20", $query);$/;"	v
+ref_url	fridx_activation_menu.php	/^$ref_url = parse_url( site_url() );$/;"	v
+referer_ary	fallriveridx.php	/^    $referer_ary = explode('\/', $referer_url);$/;"	v
+referer_slice	fallriveridx.php	/^    $referer_slice = array_slice( $referer_ary, 0, 4 );$/;"	v
+referer_url	fallriveridx.php	/^    $referer_url = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );$/;"	v
+register_fridx_settings	admin_menus.php	/^function register_fridx_settings() {$/;"	f
+response	fridx_activation_menu.php	/^        $response = "ACTIVE";$/;"	v
+response	fridx_activation_menu.php	/^        $response = "INACTIVE";$/;"	v
+response	fridx_activation_menu.php	/^    $response = "Wordpress connectivity error, please try again in a few moments.";$/;"	v
+response	fridx_activation_menu.php	/^    $response = $json_output[ 'response' ][ 'message'];$/;"	v
+response	fridx_maps_menu.php	/^                $response = "Wordpress connectivity error.";$/;"	v
+response	fridx_maps_menu.php	/^                $response = $json_output[ 'response' ][ 'message' ];$/;"	v
+response	property_index_shortcode.php	/^        $response = $json_output[ 'response' ][ 'message' ];$/;"	v
+response	widgets/idx_top_listings_widget.php	/^            $response = $json_output[ 'response' ][ 'message' ];$/;"	v
+return_template	redirects.php	/^            $return_template = $plugindir . '\/themefiles\/' . $templatefilename;$/;"	v
+return_template	redirects.php	/^            $return_template = TEMPLATEPATH . '\/' . $templatefilename;$/;"	v
+select	fallriveridx.php	/^    $select = '<select name="' . $fname . '" id="' . $fid . '" style="width:100%;">';$/;"	v
+single_property_shortcode	single_property_shortcode.php	/^function single_property_shortcode( $atts ) {$/;"	f
+siteUrl	fridx_activation_menu.php	/^$siteUrl = $ref_url['host'];$/;"	v
+slug	property_index_shortcode.php	/^                    $slug = $listing[ 'ListingID' ] . '-' . fridx_to_slug( $listing[ 'FullStreetAddress' ] );$/;"	v
+slug	themefiles/archive-fridx_search.php	/^            $slug = $listing[ 'ListingID' ] . '-' . fridx_to_slug( $listing[ 'FullStreetAddress' ] );$/;"	v
+slug	widgets/idx_top_listings_widget.php	/^                    $slug = $listing[ 'ListingID' ] . '-' . fridx_to_slug( $listing[ 'FullStreetAddress' ] );$/;"	v
+str_ary	fallriveridx.php	/^    $str_ary = explode( ' ', $str );$/;"	v
+str_ary	fallriveridx.php	/^    $str_ary = explode( '-', $str );$/;"	v
+str_ary	fallriveridx.php	/^    $str_ary = explode( '.', $str_lower );$/;"	v
+str_deslugged	fallriveridx.php	/^    $str_deslugged = implode( ' ', $str_ary );$/;"	v
+str_deslugged	fallriveridx.php	/^    $str_deslugged = implode( '%20', $str_ary );$/;"	v
+str_lower	fallriveridx.php	/^    $str_lower = strtolower( $str );$/;"	v
+str_sentenceized	fallriveridx.php	/^    $str_sentenceized = implode( '.', $upper_str_ary );$/;"	v
+str_slugged	fallriveridx.php	/^    $str_slugged = implode( '-', $str_ary );$/;"	v
+str_upcase	fallriveridx.php	/^    $str_upcase = implode( '%20', $ary_upcase );$/;"	v
+templatefilename	redirects.php	/^        $templatefilename = 'archive-fr_idx.php';$/;"	v
+templatefilename	redirects.php	/^        $templatefilename = 'archive-fridx_maps.php';$/;"	v
+templatefilename	redirects.php	/^        $templatefilename = 'archive-fridx_search.php';$/;"	v
+title	fallriveridx.php	/^                $title = "Single Property Listing - ";$/;"	v
+title	fallriveridx.php	/^                $title = fridx_titleize_from_slug( $wp->query_vars[ 'name' ] ); $/;"	v
+title	widgets/idx_cities_widget.php	/^                $title = $instance[ 'title' ];$/;"	v
+title	widgets/idx_cities_widget.php	/^                $title = __( 'My Neighborhoods', 'text_domain' );$/;"	v
+title	widgets/idx_cities_widget.php	/^            $title = apply_filters( 'widget_title', $instance[ 'title' ] );$/;"	v
+title	widgets/idx_search_widget.php	/^            $title = $instance[ 'title' ];$/;"	v
+title	widgets/idx_search_widget.php	/^            $title = __( 'Property Search', 'text_domain' );$/;"	v
+title	widgets/idx_search_widget.php	/^        $title = apply_filters( 'widget_title', $instance[ 'title' ] );$/;"	v
+title	widgets/idx_top_listings_widget.php	/^            $title = $instance[ 'title' ];$/;"	v
+title	widgets/idx_top_listings_widget.php	/^            $title = __( 'Top Listings', 'text_domain' );$/;"	v
+title	widgets/idx_top_listings_widget.php	/^        $title = apply_filters( 'widget_title', $instance['title'] );$/;"	v
+title_lower	fallriveridx.php	/^    $title_lower = strtolower( $title );$/;"	v
+titleized_title	fallriveridx.php	/^    $titleized_title = ucwords( $title_lower );$/;"	v
+tracts_field	widgets/idx_search_widget.php	/^            $tracts_field = $instance[ 'tracts_field' ];$/;"	v
+update	widgets/idx_top_listings_widget.php	/^    public function update( $new_instance, $old_instance ) {$/;"	f
+update_listing_counter	fallriveridx.php	/^function update_listing_counter() {$/;"	f
+upper_sentence	fallriveridx.php	/^        $upper_sentence = ucfirst( $sentence );$/;"	v
+upper_str_ary	fallriveridx.php	/^    $upper_str_ary = array();$/;"	v
+upslice	fallriveridx.php	/^        $upslice = ucfirst( $slice );$/;"	v
+url	fallriveridx.php	/^    $url = implode('\/', $referer_slice);$/;"	v
+value	themefiles/archive-fridx_search.php	/^            $value = fridx_capitalize_query( $value );$/;"	v
+widget	widgets/idx_cities_widget.php	/^        public function widget( $args, $instance ) {$/;"	f
+widget	widgets/idx_search_widget.php	/^    public function widget( $args, $instance ) {$/;"	f
+widget	widgets/idx_top_listings_widget.php	/^    public function widget($args, $instance) {$/;"	f
+wpurl	fridx_activation_menu.php	/^    $wpurl = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );$/;"	v
+zip_codes_field	widgets/idx_search_widget.php	/^            $zip_codes_field = $instance[ 'zip_codes_field' ];$/;"	v

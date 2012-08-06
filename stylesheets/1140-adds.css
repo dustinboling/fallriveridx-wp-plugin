@@ -1,0 +1,46 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+body {
+
+}
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+  body {
+  }
+
+  .fridx-container    { padding: 20px; font-size: 11px; }
+
+  .fridx-container h1 { font-size: 33px; line-height: 110%; }
+  .fridx-container h2 { font-size: 26px; line-height: 110%; }
+  .fridx-container h3 { font-size: 21px; line-height: 110%; }
+
+  .fridx-container div h1 { font-size: 33px;; line-height: 110%; }
+  .fridx-container div h2 { font-size: 26px; line-height: 110%; }
+  .fridx-container div h3 { font-size: 21px; line-height: 120%; }
+
+  .fridx-container table { width: 90%; }
+
+  .fridx-container p     { width: 91%; }
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+  /*  .logo {
+  background: url(logo2x.jpg) no-repeat;
+  background-size: 212px 303px;
+  }*/
+
+}

@@ -1,0 +1,203 @@
+/* Top-level headers */
+.fridx-container h1 { font-size: 44px; line-height: 110%; margin: 0; padding: 0; }
+.fridx-container h2 { font-size: 36px; line-height: 110%; margin: 0; padding: 0; }
+.fridx-container h3 { font-size: 30px; line-height: 120%; margin: 0; padding: 0; }
+
+/* Headers for shortcode listing index */
+.fridx-container p { padding: 0 10px 10px; font-size: 14px; }
+
+ul#fridx-listings { list-style-type: none; }
+ul#fridx-listings li { font-size: 10px; font-weight: 200; }
+ul#fridx-listings li span { float: right; }
+
+ul#fridx-areas { list-style-type: none; }
+ul#fridx-areas li { font-size: 10px; text-transform: uppercase; font-weight: 200; }
+
+/* Slider */
+#fridx-slider {
+    margin: 0;
+    padding: 0;
+    height: 320px;
+}
+
+.nivo-controlNav {
+    padding: 0 !important;
+    background: #DCDCCC;
+}
+.nivo-controlNav img {
+}
+
+/* #Property Search */
+#fridx-search-params {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+#fridx-search-params li {
+    color: orange;
+    font-size: 10px;
+}
+
+#price {
+  color: green;
+  padding: 5px 0;
+}
+
+/* #Property index */
+#listings-container {
+    margin: 0;
+    padding: 0;
+}
+
+.fridx-listing {
+    margin: 10px 0;
+}
+
+.fridx-listing-header {
+    background: #fff;
+}
+
+.fridx-listing-table {
+    font-size: 12px;
+    font-family: helvetica;
+    table-layout: fixed;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.fridx-listing-row1 {
+    border: 0.1em solid #777;
+    min-width: 0 !important;
+}
+
+.fridx-listing-row1 img {
+    padding: 1% 0;
+    width: 34% !important;
+}
+
+.fridx-listing-index-image {
+    padding: 0;
+    margin: 0 !important;
+}
+
+.fridx-listing-index-details {
+    margin: 0 !important;
+    padding: 0;
+    width: 66% !important;
+}
+
+.fridx-listing-row2 {
+    min-width: 0 !important;
+    border: 1px solid black;
+}
+
+.fridx-listing-table-col1 {
+    font-weight: normal;
+}
+
+/* #Map Controls
+================================================== */
+#fridx-map-user-controls {
+    background-color: rgba(255, 255, 255, .9);
+    border: 1px solid #ddd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#fridx-map-user-controls p {
+    font-size: 12px;
+}
+
+/* #Tables
+================================================== */
+.fridx-container table { width: 100%; }
+.fridx-container table td { border: 1px solid #ccc; padding: 0 15px; }
+.fridx-container table .first { font-weight: bold; }
+
+/* #Tabs (activate in tabs.js)
+================================================== */
+ul.fridx-tabs {
+  display: block;
+  margin: 20px 0 20px 0;
+  padding: 0;
+  border-bottom: solid 1px #ddd; 
+}
+ul.fridx-tabs li {
+  display: block;
+  width: auto;
+  height: 30px;
+  padding: 0;
+  float: left;
+  margin-bottom: 0; 
+}
+ul.fridx-tabs li a {
+  display: block;
+  text-decoration: none;
+  width: auto;
+  height: 29px;
+  padding: 0px 20px;
+  line-height: 30px;
+  border: solid 1px #ddd;
+  border-width: 1px 1px 0 0;
+  margin: 0;
+  background: #f5f5f5;
+  font-size: 13px; 
+}
+ul.fridx-tabs li a.active {
+  background: #fff;
+  height: 30px;
+  position: relative;
+  top: -4px;
+  padding-top: 4px;
+  border-left-width: 1px;
+  margin: 0 0 0 -1px;
+  color: #111;
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  -webkit-border-top-right-radius: 2px;
+  border-top-right-radius: 2px; 
+}
+ul.fridx-tabs li:first-child a.active {
+  margin-left: 0; 
+}
+ul.fridx-tabs li:first-child a {
+  border-width: 1px 1px 0 1px;
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  border-top-left-radius: 2px; 
+}
+ul.fridx-tabs li:last-child a {
+  -moz-border-radius-topright: 2px;
+  -webkit-border-top-right-radius: 2px;
+  border-top-right-radius: 2px; 
+}
+
+ul.fridx-tabs-content { margin: 0; display: block; }
+ul.fridx-tabs-content > li { display:none; }
+ul.fridx-tabs-content > li.active { display: block; list-style: none;}
+
+/* Clearfixing.fridx-tabs for beautiful stacking */
+ul.fridx-tabs:before,
+ul.fridx-tabs:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; 
+}
+ul.fridx-tabs:after {
+  clear: both; 
+}
+ul.fridx-tabs {
+  zoom: 1; 
+}
