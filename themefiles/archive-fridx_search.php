@@ -13,7 +13,7 @@ foreach ( $params as $param => $value ) {
 }
 
 /* Construct query */
-$jsonurl = "http://fallriveridx.heroku.com/api/properties/search.json?Token=";
+$jsonurl = "http://fallriveridx.heroku.com/api/properties/index.json?Token=";
 $jsonurl .= FALL_RIVER_TOKEN;
 
 foreach ( $user_params as $param => $value ) {

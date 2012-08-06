@@ -68,7 +68,7 @@ function property_search_shortcode( $atts ) {
     $attrs = capitalize_atts( $atts );
     check_search_attr_keys( $attrs );
 
-    $query = "http://fallriveridx.heroku.com/api/properties/search.json?Token=";
+    $query = "http://fallriveridx.heroku.com/api/properties/index.json?Token=";
     $query .= FALL_RIVER_TOKEN;
 
     foreach ( $attrs as $key => $value ) {

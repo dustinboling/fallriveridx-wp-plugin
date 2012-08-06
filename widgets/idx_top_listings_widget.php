@@ -22,7 +22,7 @@ class FridxTopListingsWidget extends WP_Widget {
         if ( ! empty( $title ) )
             echo $before_title . $title . $after_title;
 
-        $jsonurl = "http://fallriveridx.heroku.com/api/properties/search.json?Token=" . FALL_RIVER_TOKEN;
+        $jsonurl = "http://fallriveridx.heroku.com/api/properties/index.json?Token=" . FALL_RIVER_TOKEN;
         foreach ($instance as $key => $param) {
             if ($param == "" || $key == "title") {
             } else if ( $key == "ListPriceLow" || $key == "ListPriceHigh"  ) {
