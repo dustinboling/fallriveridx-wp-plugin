@@ -13,7 +13,7 @@ License:
 /* TODO: add default image for properties, probably just add it to the plugin dir */
 /* TODO: set title on single property page, wp_title filter */
 /* TODO: do not show empty fields in summary data */
-/* TODO: add delay on request of ~200 ms for map_idle callbacks */
+/* TODO: maps: add delay on request of ~200 ms for map_idle callbacks */
 // TODO: search page: style fridx-search-params (maybe something like bootstrap's flash messages)
 // TODO: a search that returns 0 results should not log a fail.
 
@@ -42,23 +42,6 @@ include 'redirects.php';
 include 'helpers.php';
 
 define("FALL_RIVER_TOKEN", get_option( 'fridx_token' ) );
-
-function fridx_render_single_listing_title() {
-    global $wp;
-    if ( isset ( $wp->query_vars[ "post_type" ] ) ) {
-        if ( $wp->query_vars[ "post_type" ] == "fridx_listing" ) {
-            if ( isset ( $wp->query_vars[ 'name' ] ) ) {
-                $title = fridx_titleize_from_slug( $wp->query_vars[ 'name' ] ); 
-                $title .= " - ";
-                return $title;
-            } else {
-                $title = "Single Property Listing - ";
-                return $title;
-            }
-        }
-    }
-}
-add_filter( 'wp_title', 'fridx_render_single_listing_title', 10, 3 );
 
 /* Global counters */
 function update_listing_counter() {

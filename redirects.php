@@ -55,4 +55,21 @@ function fridx_search_redirect() {
 }
 add_action( 'template_redirect', 'fridx_search_redirect' );
 
+function fridx_render_single_listing_title() {
+    global $wp;
+    if ( isset ( $wp->query_vars[ "post_type" ] ) ) {
+        if ( $wp->query_vars[ "post_type" ] == "fridx_listing" ) {
+            if ( isset ( $wp->query_vars[ 'name' ] ) ) {
+                $title = fridx_titleize_from_slug( $wp->query_vars[ 'name' ] ); 
+                $title .= " - ";
+                return $title;
+            } else {
+                $title = "Single Property Listing - ";
+                return $title;
+            }
+        }
+    }
+}
+add_filter( 'wp_title', 'fridx_render_single_listing_title', 10, 3 );
+
 ?>
