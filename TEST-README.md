@@ -22,7 +22,8 @@ After initializing plugin, refreshing permalinks and activating your api key, tr
 
 5. Property Search Shortcode
 ```ruby
-[property_search PriceRange="" ListPrice="" City="" ZipCode="" BedroomsTotal="" BathsTotal="" BuildingSize="" ListAgentAgentID="" SaleAgentAgentID=""]
+[property_search PriceRange="" ListPrice="" City="" ZipCode="" BedroomsTotal="" BathsTotal="" 
+  BuildingSize="" ListAgentAgentID="" SaleAgentAgentID=""]
 ```
 * start a new page
 * try a complex query with EACH of the above params
