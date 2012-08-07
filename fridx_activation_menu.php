@@ -66,7 +66,7 @@ function fridx_account_status_errors( $resp ) {
 }
 ?>
 <div class="wrap">
-    <h2>Hi. I'm a menu. Use me to activate this site with your FRIDX token.</h2>
+    <h2>Submit your API key below.</h2>
     <h3 id="fridx-error-message"><?= fridx_account_status_errors( $response ) ?></h3>
 
     <form method="post" action="options.php" id="fridx-activation">

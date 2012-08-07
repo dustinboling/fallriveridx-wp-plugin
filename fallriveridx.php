@@ -43,6 +43,9 @@ include 'helpers.php';
 
 define("FALL_RIVER_TOKEN", get_option( 'fridx_token' ) );
 
+if ( ! defined('WP_PLUGIN_DIR') )
+    define('WP_PLUGIN_DIR', dirname( dirname( __FILE__ ) ) );
+
 /* Global counters */
 function update_listing_counter() {
     global $listing_counter;
