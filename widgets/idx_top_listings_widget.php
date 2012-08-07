@@ -39,11 +39,11 @@ class FridxTopListingsWidget extends WP_Widget {
             $jsonurl .= "&PriceRange=" . $instance['ListPriceLow'] . "-" . $instance['ListPriceHigh']; 
         }
         // set list price range if only HIGH is set
-        if ( $instance['ListPriceLow'] == "" && isset ( $instance['ListPriceHigh'] ) ) {
+        else if ( $instance['ListPriceLow'] == "" && isset ( $instance['ListPriceHigh'] ) ) {
             $jsonurl .= "&PriceRange=0-" . $instance['ListPriceHigh'];
         }
         // set list rice  range if only LOW is set
-        if ( $instance['ListPriceHigh'] == "" && isset ( $instance['ListPriceLow'] ) ) {
+        else if ( $instance['ListPriceHigh'] == "" && isset ( $instance['ListPriceLow'] ) ) {
             $jsonurl .= "&PriceRange=" . $instance['ListPriceLow'] . "-" . "999999999";
         }
 

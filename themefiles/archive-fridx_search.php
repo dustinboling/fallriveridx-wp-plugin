@@ -67,7 +67,7 @@ if ( isset ( $fr_error_msg ) ) {
   if ( $fr_error_msg == "No properties found." ) {
     the_widget( 'FridxSearchWidget', array( 'title' =>'NO PROPERTIES FOUND, SEARCH AGAIN', 'cities_field' => '' ) );
   } else {
-    echo $fr_error_msg;
+      echo $fr_error_msg;
   }
 } else {
 ?>
