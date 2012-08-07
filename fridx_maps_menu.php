@@ -25,7 +25,7 @@
     }
 ?>
 <div class="wrap">
-    <h2>Maps</h2>
+    <h2>Map Settings</h2>
     <h3 id="fridx-error-message"><?php if ( isset ( $response ) ) { echo $response; } ?></h3>
 
     <form method="post" action="options.php" id="fridx-maps-options">
