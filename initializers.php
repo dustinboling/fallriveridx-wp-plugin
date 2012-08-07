@@ -1,15 +1,19 @@
 <?php
 
 /* Initialize widgets */
-add_action( 'widgets_init', function() {
-    return register_widget( 'FridxTopListingsWidget' );
-});
-add_action( 'widgets_init', function() {
-    return register_widget( 'FridxSearchWidget' );
-});
-add_action( 'widgets_init', function() {
+
+function registerFridxAreasWidget() {
     return register_widget( 'FridxAreasWidget' );
-});
+}
+function registerFridxSearchWidget() {
+    return register_widget( 'FridxSearchWidget' );
+}
+function registerFridxTopListingsWidget() {
+    return register_widget( 'FridxTopListingsWidget' );
+}
+add_action( 'widgets_init', 'registerFridxAreasWidget' );
+add_action( 'widgets_init', 'registerFridxSearchWidget' );
+add_action( 'widgets_init', 'registerFridxTopListingsWidget' );
 
 /* Set up params for fr_idx custom post type */
 function parameter_queryvars( $qvars ) {
