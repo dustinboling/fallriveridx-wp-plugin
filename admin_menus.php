@@ -30,13 +30,13 @@ add_action( 'admin_init', 'register_fridx_settings' );
 
 // Include menus
 function fridx_activation_menu() {
-    include 'fridx_activation_menu.php';
+    include dirname(__FILE__).'/fridx_activation_menu.php';
 }
 function fridx_maps_menu() {
-    include 'fridx_maps_menu.php';
+    include dirname(__FILE__).'/fridx_maps_menu.php';
 }
 function fridx_menu() {
-    include 'fridx_menu.php';
+    include dirname(__FILE__).'/fridx_menu.php';
 }
 
 ?>
