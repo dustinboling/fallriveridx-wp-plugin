@@ -35,7 +35,10 @@ class FridxTopListingsWidget extends WP_Widget {
             }
         }
         // set list price range if BOTH limits are set
-        if ( isset ( $instance['ListPriceLow'] ) && isset ( $instance['ListPriceHigh'] )  && $instance['ListPriceLow'] != "" && $instance['ListPriceHigh'] != "" ) {
+        if ( empty ($instance['ListPriceLow'] ) && empty ( $instance['ListPriceHigh'] ) ) {
+            // do nothing
+        }
+        else if ( isset ( $instance['ListPriceLow'] ) && isset ( $instance['ListPriceHigh'] )  && $instance['ListPriceLow'] != "" && $instance['ListPriceHigh'] != "" ) {
             $jsonurl .= "&PriceRange=" . $instance['ListPriceLow'] . "-" . $instance['ListPriceHigh']; 
         }
         // set list price range if only HIGH is set
