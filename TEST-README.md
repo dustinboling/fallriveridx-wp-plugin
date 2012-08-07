@@ -2,25 +2,25 @@
 First sign up for an api key: http://fallriveridx.heroku.com/signup
 After initializing plugin, refreshing permalinks and activating your api key, try the following:
 
-1. The map:
+## The map:
 * set center in Fall River IDX->maps menu
 * go to www.yourblog.com/idx/map/ - does it display properly?
 
-2. IDX Search Widget
+## IDX Search Widget
 * add search widget to a sidebar
 * try to do some searches with it
 
-3. IDX Areas Widget
+## IDX Areas Widget
 * add areas widget to sidebar
 * add some areas to it
 * do they show up in the sidebar?
 * do the links work?
 
-4. IDX Listings Widget
+## IDX Listings Widget
 * add listings widget to sidebar
 * try a bunch of variations, do you get the expected listings?
 
-5. Property Search Shortcode
+## Property Search Shortcode
 ```ruby
 [property_search PriceRange="" ListPrice="" City="" ZipCode="" BedroomsTotal="" BathsTotal="" 
   BuildingSize="" ListAgentAgentID="" SaleAgentAgentID=""]
@@ -31,7 +31,7 @@ After initializing plugin, refreshing permalinks and activating your api key, tr
 * does the query return the expected results?
 * does the html render properly? --NOTE: the css is in a very early stage, needs work
 
-6. Single Property Shortcode
+## Single Property Shortcode
 ```ruby
 [single_property ListingID="21406401"]
 ```
