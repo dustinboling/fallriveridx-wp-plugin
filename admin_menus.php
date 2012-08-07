@@ -36,7 +36,7 @@ function fridx_maps_menu() {
     include 'fridx_maps_menu.php';
 }
 function fridx_menu() {
-    include 'fridx_menu.php'
+    include 'fridx_menu.php';
 }
 
 ?>
